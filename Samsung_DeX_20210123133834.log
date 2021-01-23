@@ -1,0 +1,676 @@
+[28F4:25F0][2021-01-23T13:38:34]i001: Burn v3.11.1.2318, Windows v10.0 (Build 19041: Service Pack 0), path: C:\Windows\Temp\{D4E82C84-87FC-4BC5-A1F5-64F3228A1930}\.cr\SamsungDeXSetupWin.exe
+[28F4:25F0][2021-01-23T13:38:34]i000: Initializing string variable 'ShouldInstallUsbDriver' to value 'false'
+[28F4:25F0][2021-01-23T13:38:34]i000: Initializing string variable 'IsLicenseAgreementChecked' to value '1'
+[28F4:25F0][2021-01-23T13:38:34]i000: Initializing string variable 'TotalSilentInstallationCount' to value '0'
+[28F4:25F0][2021-01-23T13:38:34]i009: Command Line: '-burn.clean.room=C:\Users\Denis\Desktop\SamsungDeXSetupWin.exe -burn.filehandle.attached=564 -burn.filehandle.self=556'
+[28F4:25F0][2021-01-23T13:38:34]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\Users\Denis\Desktop\SamsungDeXSetupWin.exe'
+[28F4:25F0][2021-01-23T13:38:34]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\Users\Denis\Desktop\'
+[28F4:25F0][2021-01-23T13:38:34]i000: Setting string variable 'WixBundleLog' to value 'C:\Users\Denis\AppData\Local\Temp\Samsung_DeX_20210123133834.log'
+[28F4:25F0][2021-01-23T13:38:34]i052: Condition 'VersionNT >= v6.1' evaluates to true.
+[28F4:25F0][2021-01-23T13:38:34]i000: Setting string variable 'WixBundleManufacturer' to value 'Samsung Electronics Co., Ltd.'
+[28F4:25F0][2021-01-23T13:38:34]i000: Loading managed bootstrapper application.
+[28F4:25F0][2021-01-23T13:38:34]i000: Creating BA thread to run asynchronously.
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Localization: Start
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Localization: User UI Language ID : 1050
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Localization: User UI Language ID : 1033 Not found in Supported Language
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Localization: Culture Info : en-US
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Localization: End
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Start
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Version : 2.0.0.15
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Registry manager : Start
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Registry manager : End
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Installer Model : InitBootStrapperEventHandlers : Start
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Installer Model : InitBootStrapperEventHandlers : End
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Installer Model : End
+[28F4:25F0][2021-01-23T13:38:34]i100: Detect begin, 5 packages
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : DetectBegin
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Bootstrapper has called DetectBegin
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Installed:  False, Package Count: 5
+[28F4:25F0][2021-01-23T13:38:34]i000: Registry key not found. Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9BE518E6-ECC6-35A9-88E4-87755C07200F}'
+[28F4:25F0][2021-01-23T13:38:34]i000: Setting numeric variable 'vcredist2008_IsInstalled' to value 0
+[28F4:25F0][2021-01-23T13:38:34]i000: Setting numeric variable 'vcredist2010_IsExists' to value 1
+[28F4:25F0][2021-01-23T13:38:34]i000: Setting string variable 'vcredist2010_IsInstalled' to value '1'
+[28F4:25F0][2021-01-23T13:38:34]i000: Setting numeric variable 'vcredist2019_IsExists' to value 1
+[28F4:25F0][2021-01-23T13:38:34]i000: Setting string variable 'vcredist2019_IsInstalled' to value '1'
+[28F4:25F0][2021-01-23T13:38:34]i000: Setting string variable 'vcredist2019_Minor' to value '24'
+[28F4:25F0][2021-01-23T13:38:34]i000: Setting string variable 'vcredist2019_PCVersion' to value 'v14.24.28127.04'
+[28F4:25F0][2021-01-23T13:38:34]i102: Detected related bundle: {0dd3314d-90c2-4482-b6d3-f9f7a5427b3e}, type: Upgrade, scope: PerMachine, version: 1.0.2.23, operation: MajorUpgrade
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : DetectRelatedBundle
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Bootstrapper_DetectRelatedBundle: Bundle {0dd3314d-90c2-4482-b6d3-f9f7a5427b3e}, operation: MajorUpgrade
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Adding product {0dd3314d-90c2-4482-b6d3-f9f7a5427b3e} to list of bundles to update
+[28F4:25F0][2021-01-23T13:38:34]i102: Detected related bundle: {bc458b5f-1945-4287-8fae-353650fd3109}, type: Upgrade, scope: PerMachine, version: 1.0.2.26, operation: MajorUpgrade
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : DetectRelatedBundle
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Bootstrapper_DetectRelatedBundle: Bundle {bc458b5f-1945-4287-8fae-353650fd3109}, operation: MajorUpgrade
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Adding product {bc458b5f-1945-4287-8fae-353650fd3109} to list of bundles to update
+[28F4:25F0][2021-01-23T13:38:34]i102: Detected related bundle: {e539e534-854a-46d2-b8f8-f6a3405f782a}, type: Upgrade, scope: PerMachine, version: 1.0.1.40, operation: MajorUpgrade
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : DetectRelatedBundle
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Bootstrapper_DetectRelatedBundle: Bundle {e539e534-854a-46d2-b8f8-f6a3405f782a}, operation: MajorUpgrade
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Adding product {e539e534-854a-46d2-b8f8-f6a3405f782a} to list of bundles to update
+[28F4:25F0][2021-01-23T13:38:34]i052: Condition 'vcredist2008_IsInstalled' evaluates to false.
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Package detection complete: vc90, State: Absent
+[28F4:25F0][2021-01-23T13:38:34]i052: Condition 'vcredist2010_IsExists AND (vcredist2010_IsInstalled = "1")' evaluates to true.
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Package detection complete: vc100, State: Present
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Package detection complete: vc140, State: Absent
+[28F4:25F0][2021-01-23T13:38:34]i052: Condition 'ShouldInstallUsbDriver = "false"' evaluates to true.
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Package detection complete: UsbDriverInstall, State: Present
+[28F4:25F0][2021-01-23T13:38:34]i103: Detected related package: {240DF7C3-F635-4CE0-B25D-6F5064FA34EC}, scope: PerMachine, version: 1.0.0.68, language: 0 operation: MajorUpgrade
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Package detection complete: SamsungDeX_x86.msi, State: Absent
+[28F4:25F0][2021-01-23T13:38:34]i101: Detected package: vc90, state: Absent, cached: Complete
+[28F4:25F0][2021-01-23T13:38:34]i101: Detected package: vc100, state: Present, cached: Complete
+[28F4:25F0][2021-01-23T13:38:34]i101: Detected package: vc140, state: Absent, cached: Complete
+[28F4:25F0][2021-01-23T13:38:34]i101: Detected package: UsbDriverInstall, state: Present, cached: Complete
+[28F4:25F0][2021-01-23T13:38:34]i101: Detected package: SamsungDeX_x86.msi, state: Absent, cached: Complete
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Detection Complete : Status : 0
+[28F4:25F0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Detection Complete : TotalPackageInstallCounts : 3
+[28F4:25F0][2021-01-23T13:38:34]i199: Detect complete, result: 0x0
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Check Installer Samsung Driver Version: Start
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Check Installer Samsung Driver Version: UsbDriverInstall : Version -> 1.7.43.0
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] SamsungPhoneConnectionStatus : getInstallerDriverVersion : 1.7.43.0
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Check Installer Samsung Driver Version: End
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] DriveChecker: Required space: 307446491
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Detected Language Culture: en-US
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Installer Model : SetTotalSilentInstallationCount
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] GetTotalSilentInstallationCount : (+)
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Registry manager : Get App Registration Key : Start
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Registry manager : Get App Registration Key : End
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] GetTotalSilentInstallationCount : Found App HKLM Registration Key
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Installer Model : Set To String Variables : TotalSilentInstallationCount -> 0
+[28F4:38E0][2021-01-23T13:38:34]i000: Setting string variable 'TotalSilentInstallationCount' to value '0'
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] [UI] Mainwindow start
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Installer Model : SetOperationType : Start
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Installer Model : SetOperationType : Installer mode Operation type: Upgrade
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] Installer Model : SetOperationType : End
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] SetMainWindowView : Start
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] [UI] InstallerMode: Upgrade to : OnInitial 
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] ServiceInformation : Start
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] [UI] ServiceInformation page: WelcomeText: Welcome to Samsung DeX
+[28F4:38E0][2021-01-23T13:38:34]i000: [BURN] [UI] ServiceInformation page: BannerText_2: Your phone might get hot while using Samsung DeX.
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] [UI] ServiceInformation page: Learn More Link : Check in Supported Language
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] [UI] ServiceInformation page: Learn More Link : common_langParam : en_us : common_countryParam : US
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] [UI] ServiceInformation page: Learn More Link : Learn More URL : http://help.content.samsung.com/csweb/auth/gosupport.do?serviceCd=sdex&targetUrl=/faq/searchFaq.do&chnlCd=WEB&_common_country=US&_common_lang=en_us&r_faq_id=159234
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] [UI] ServiceInformation page: Learn More Link set
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] [UI] ServiceInformation page: Agreement Text length : 60
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] [UI] ServiceInformation page: BeforeHyperlinkText : I agree to the 
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] [UI] ServiceInformation page: HyperlinkText : DeX for PC Software License Agreement
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] [UI] ServiceInformation page: AfterHyperlinkText : 
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] ServiceInformation: End
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] End of Set page for: Upgrade to : ServiceInformation 
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] SetMainWindowView : End
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] [UI] Mainwindow end
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] View initailize end
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] Installer Model : SetWindowHandle : Start
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] Installer Model : SetWindowHandle : End
+[28F4:38E0][2021-01-23T13:38:35]i000: [BURN] Attempt of Display.Full
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] MainWindow : Next Button Clicked : Start
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] MainWindow : Next Button Clicked : Move focus to main frame
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] MainWindow : Next Button Clicked : Install : Current Page : ServiceInformation
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] MainWindow : Next Button Clicked : Driver Information check : Start
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] DriverNotInstalled : Start
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] DriverNotInstalled : keyLocalMachine Base Key opened
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] DriverNotInstalled : installedDriverVersionKey registry Sub Key opened
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] DriverNotInstalled : Installed Driver Version on PC : 1.7.43.0
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] DriverNotInstalled : Installer Driver Version : 1.7.43.0
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] DriverNotInstalled : End with return False
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] MainWindow : Next Button Clicked : Driver Information check : End
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] MainWindow : Next Button Clicked : getRegistryValues
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] Registry manager : Get Registry Values : Start
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] Registry manager : Get App Registration Key : Start
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] is64BitOs : Start
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] Registry manager : Get Registry Values : is64BitOs : true
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] Registry manager : Get App Registration Key : End
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] Registry manager : Get Registry Values : Found Samsung DeX HKCU path
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] Registry manager : Get Registry Values : End
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] SetMainWindowView : Start
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] [UI] InstallerMode: Upgrade to : ServiceInformation 
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] [UI] InstallDirectory : Start
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] [UI] InstallDirectory : RunDex_CheckBox_Clicked
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] [UI] InstallDirectory : CreateShortcut_CheckBox_Clicked
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] [UI] InstallDirectory: Windows ProgramFiles (x86) : C:\Program Files (x86)\
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] [UI] InstallDirectory : Set Install Directory : C:\Program Files (x86)\Samsung\Samsung DeX\
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] Installer Model : Set To String Variables : INSTALLFOLDER -> C:\Program Files (x86)\Samsung\Samsung DeX\
+[28F4:38E0][2021-01-23T13:38:38]i000: Setting string variable 'INSTALLFOLDER' to value 'C:\Program Files (x86)\Samsung\Samsung DeX\'
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] DriveChecker: Need to free space in C:\ Drive: False
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] DriveChecker: Need to free space: False
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] MeasureButtonText : Start
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] MeasureButtonText : End
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] [UI] InstallDirectory end
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] End of Set page for: Upgrade to : InstallDirectory 
+[28F4:38E0][2021-01-23T13:38:38]i000: [BURN] SetMainWindowView : End
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] MainWindow : Next Button Clicked : Start
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] MainWindow : Next Button Clicked : Move focus to main frame
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] MainWindow : Next Button Clicked : Install : Current Page : InstallDirectory
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] DriveChecker: Need to free space in C:\ Drive: False
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] DriveChecker: Need to free space: False
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] MainWindow : unpinFromShortcut : Start
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] UnpinFromTaskbar : Start
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] getDllPtr :  Dll location : C:\Windows\Temp\{2B9FE84A-980A-49AF-B6FB-FD04DE3BAFC4}\.ba
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] UnpinFromTaskbar : End
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] MainWindow : unpinFromShortcut : End
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] SetShortCutPinTasks : Start
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] Bootstrapper : Create desktop Shortcut : CreateAppShortcut -> True
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] Bootstrapper : Create desktop Shortcut -> true
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Set To String Variables : ADDDESKTOPSHORTCUT -> 1
+[28F4:38E0][2021-01-23T13:39:09]i000: Setting string variable 'ADDDESKTOPSHORTCUT' to value '1'
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] SetShortCutPinTasks : End
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] SetMainWindowView : Start
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] [UI] InstallerMode: Upgrade to : InstallDirectory 
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] InstallProgress : Start
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] DeXProcessKill : Start
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] getDllPtr :  Dll location : C:\Windows\Temp\{2B9FE84A-980A-49AF-B6FB-FD04DE3BAFC4}\.ba
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] DeXProcessKill : End
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] [UI] InstallProgress: DeXProcessKill
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] InstallProgressVM : Start
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] [UI] InstallProgressVM: InitEvents : Start
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] [UI] InstallProgressVM: InitEvents : End
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] InstallProgressVM : End
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] [UI] InstallProgress: setPageText : Start
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] [UI] InstallProgress: setPageText : End
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] [UI] InstallProgress: title text: Installing DeX for PC...
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] InstallProgress : End
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] End of Set page for: Upgrade to : InstallProgress 
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] SetMainWindowView : End
+[28F4:38E0][2021-01-23T13:39:09]i000: [BURN] Installer Model : PlanAction : Install
+[28F4:25F0][2021-01-23T13:39:09]i200: Plan begin, 5 packages, action: Install
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Entered Plan Related Bundle
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Check for upgrade: product code: {0dd3314d-90c2-4482-b6d3-f9f7a5427b3e}, bundleId = {0dd3314d-90c2-4482-b6d3-f9f7a5427b3e}
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : setting bundle to Absent
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Check for upgrade: product code: {bc458b5f-1945-4287-8fae-353650fd3109}, bundleId = {0dd3314d-90c2-4482-b6d3-f9f7a5427b3e}
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Check for upgrade: product code: {e539e534-854a-46d2-b8f8-f6a3405f782a}, bundleId = {0dd3314d-90c2-4482-b6d3-f9f7a5427b3e}
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Entered Plan Related Bundle
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Check for upgrade: product code: {0dd3314d-90c2-4482-b6d3-f9f7a5427b3e}, bundleId = {bc458b5f-1945-4287-8fae-353650fd3109}
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Check for upgrade: product code: {bc458b5f-1945-4287-8fae-353650fd3109}, bundleId = {bc458b5f-1945-4287-8fae-353650fd3109}
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : setting bundle to Absent
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Check for upgrade: product code: {e539e534-854a-46d2-b8f8-f6a3405f782a}, bundleId = {bc458b5f-1945-4287-8fae-353650fd3109}
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Entered Plan Related Bundle
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Check for upgrade: product code: {0dd3314d-90c2-4482-b6d3-f9f7a5427b3e}, bundleId = {e539e534-854a-46d2-b8f8-f6a3405f782a}
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Check for upgrade: product code: {bc458b5f-1945-4287-8fae-353650fd3109}, bundleId = {e539e534-854a-46d2-b8f8-f6a3405f782a}
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : Check for upgrade: product code: {e539e534-854a-46d2-b8f8-f6a3405f782a}, bundleId = {e539e534-854a-46d2-b8f8-f6a3405f782a}
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : setting bundle to Absent
+[28F4:25F0][2021-01-23T13:39:09]w321: Skipping dependency registration on package with no dependency providers: vc90
+[28F4:25F0][2021-01-23T13:39:09]i000: Setting string variable 'WixBundleLog_vc90' to value 'C:\Users\Denis\AppData\Local\Temp\Samsung_DeX_20210123133834_000_vc90.log'
+[28F4:25F0][2021-01-23T13:39:09]w321: Skipping dependency registration on package with no dependency providers: vc100
+[28F4:25F0][2021-01-23T13:39:09]w321: Skipping dependency registration on package with no dependency providers: vc140
+[28F4:25F0][2021-01-23T13:39:09]i000: Setting string variable 'WixBundleLog_vc140' to value 'C:\Users\Denis\AppData\Local\Temp\Samsung_DeX_20210123133834_001_vc140.log'
+[28F4:25F0][2021-01-23T13:39:09]w321: Skipping dependency registration on package with no dependency providers: UsbDriverInstall
+[28F4:25F0][2021-01-23T13:39:09]i000: Setting string variable 'WixBundleRollbackLog_SamsungDeX_x86.msi' to value 'C:\Users\Denis\AppData\Local\Temp\Samsung_DeX_20210123133834_002_SamsungDeX_x86.msi_rollback.log'
+[28F4:25F0][2021-01-23T13:39:09]i000: Setting string variable 'WixBundleLog_SamsungDeX_x86.msi' to value 'C:\Users\Denis\AppData\Local\Temp\Samsung_DeX_20210123133834_002_SamsungDeX_x86.msi.log'
+[28F4:25F0][2021-01-23T13:39:09]i201: Planned package: vc90, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: None, cache: No, uncache: No, dependency: None
+[28F4:25F0][2021-01-23T13:39:09]i201: Planned package: vc100, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[28F4:25F0][2021-01-23T13:39:09]i201: Planned package: vc140, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: None, cache: No, uncache: No, dependency: None
+[28F4:25F0][2021-01-23T13:39:09]i201: Planned package: UsbDriverInstall, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[28F4:25F0][2021-01-23T13:39:09]i201: Planned package: SamsungDeX_x86.msi, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: No, uncache: No, dependency: Register
+[28F4:25F0][2021-01-23T13:39:09]i207: Planned related bundle: {0dd3314d-90c2-4482-b6d3-f9f7a5427b3e}, type: Upgrade, default requested: Absent, ba requested: Absent, execute: Uninstall, rollback: Install, dependency: None
+[28F4:25F0][2021-01-23T13:39:09]i207: Planned related bundle: {bc458b5f-1945-4287-8fae-353650fd3109}, type: Upgrade, default requested: Absent, ba requested: Absent, execute: Uninstall, rollback: Install, dependency: None
+[28F4:25F0][2021-01-23T13:39:09]i207: Planned related bundle: {e539e534-854a-46d2-b8f8-f6a3405f782a}, type: Upgrade, default requested: Absent, ba requested: Absent, execute: Uninstall, rollback: Install, dependency: None
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : PlanComplete : Entered Plan Related Bundle
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : PlanComplete : ApplyAction
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : ApplyAction
+[28F4:25F0][2021-01-23T13:39:09]i299: Plan complete, result: 0x0
+[28F4:25F0][2021-01-23T13:39:09]i300: Apply begin
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] [UI] InstallProgressVM: InitEvents : Total Apply phase count : 2
+[28F4:25F0][2021-01-23T13:39:09]i000: [BURN] Installer Model : ApplyBegin
+[28F4:25F0][2021-01-23T13:39:09]i010: Launching elevated engine process.
+[28F4:25F0][2021-01-23T13:39:09]i011: Launched elevated engine process.
+[28F4:25F0][2021-01-23T13:39:09]i012: Connected to elevated engine.
+[0A18:302C][2021-01-23T13:39:09]i358: Pausing automatic updates.
+[0A18:302C][2021-01-23T13:39:09]i359: Paused automatic updates.
+[0A18:302C][2021-01-23T13:39:09]i360: Creating a system restore point.
+[0A18:302C][2021-01-23T13:39:09]w363: Could not create system restore point, error: 0x80070422. Continuing...
+[0A18:302C][2021-01-23T13:39:09]i370: Session begin, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{743e3ecf-e674-4aae-973b-0e784ca38803}, options: 0x4, disable resume: No
+[0A18:302C][2021-01-23T13:39:09]i320: Registering bundle dependency provider: {743e3ecf-e674-4aae-973b-0e784ca38803}, version: 2.0.0.15
+[0A18:302C][2021-01-23T13:39:09]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{743e3ecf-e674-4aae-973b-0e784ca38803}, resume: Active, restart initiated: No, disable resume: No
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: vc90 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.exe.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : vc90 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay007555B3122E7606EBC9899388262E97 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\eula.1041.txt.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay007555B3122E7606EBC9899388262E97 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay0E44D790384F77AC2C7BB1CC09F71184 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\eula.1031.txt.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay0E44D790384F77AC2C7BB1CC09F71184 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay2564D46513B4B0EC9E548C09C8031AF6 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.res.1049.dll.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay2564D46513B4B0EC9E548C09C8031AF6 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay378616F27EC1C66E9C52B1852E8A7E8D at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.res.1031.dll.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay378616F27EC1C66E9C52B1852E8A7E8D : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay3C4D8D4A89D8BF760AF1AAFAF355FA83 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\vc_red.cab.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay3C4D8D4A89D8BF760AF1AAFAF355FA83 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay41514ADA6EDABBDE5FA0DB34B9676EFD at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\eula.2052.txt.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay41514ADA6EDABBDE5FA0DB34B9676EFD : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay4F36DAEBCE9BF79CA39F492D468E626D at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\vc_red.msi.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay4F36DAEBCE9BF79CA39F492D468E626D : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay56D5A83746123B101E7854825990F264 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\eula.3082.txt.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay56D5A83746123B101E7854825990F264 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay5DB0C7CA5AEA100DC80467FCAB63A777 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\eula.1033.txt.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay5DB0C7CA5AEA100DC80467FCAB63A777 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay6CC557CCF210E00CBFA8CDC3981B1148 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.res.1042.dll.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay6CC557CCF210E00CBFA8CDC3981B1148 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay6CCEAFA051752F2079061AA2185F71C5 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\eula.1042.txt.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay6CCEAFA051752F2079061AA2185F71C5 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay6E702102406C742259EA91FCB96845C0 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\eula.1040.txt.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay6E702102406C742259EA91FCB96845C0 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay7089DC58A6D12E2E99ED6BCC0A2A57E7 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.res.2052.dll.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay7089DC58A6D12E2E99ED6BCC0A2A57E7 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay77D9538634745F33C0F2BBB01C1F5BE7 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\globdata.ini.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay77D9538634745F33C0F2BBB01C1F5BE7 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: pay97C4CCA8BA2B7CB30A6B18BFFCDEE466 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\eula.1028.txt.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : pay97C4CCA8BA2B7CB30A6B18BFFCDEE466 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: payA0B8EB2580FF0A9C7BE0D20455787F96 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.res.1040.dll.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : payA0B8EB2580FF0A9C7BE0D20455787F96 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: payA37C965468B5FE85614A9BD1E24B26A0 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\eula.1036.txt.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : payA37C965468B5FE85614A9BD1E24B26A0 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: payAA04D14BE6834402C76D81840576A532 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.ini.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : payAA04D14BE6834402C76D81840576A532 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: payC4D5E4FD774FD479178BB0F6FD962116 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.res.1036.dll.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : payC4D5E4FD774FD479178BB0F6FD962116 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: payC8374A2AB18AFBC2400B7A975CBE546E at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\vcredist.bmp.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : payC8374A2AB18AFBC2400B7A975CBE546E : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: payD13D5B08957C83FE71C3AF2B0BE00B99 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\eula.1049.txt.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : payD13D5B08957C83FE71C3AF2B0BE00B99 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: payD3837B128F7B389B9A5750ADBC301015 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.res.1041.dll.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : payD3837B128F7B389B9A5750ADBC301015 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: payEB66D347715B2E138356307C4D8F6251 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.res.1028.dll.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : payEB66D347715B2E138356307C4D8F6251 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: payEF67DEBE307C9B5E4F58F81CE26C78D7 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.res.3082.dll.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : payEF67DEBE307C9B5E4F58F81CE26C78D7 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:10]i304: Verified existing payload: payF536E4DEA59552138E94623586D264D4 at path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.res.1033.dll.
+[28F4:17A4][2021-01-23T13:39:10]i000: [BURN] Cache Package : payF536E4DEA59552138E94623586D264D4 : Cache Progress : 6
+[0A18:16E0][2021-01-23T13:39:11]i304: Verified existing payload: vc140 at path: C:\ProgramData\Package Cache\AFA5BADCE64EE67290ADD24E0DC3D8210954AC6C\vcredist_x86_vc2019.exe.
+[28F4:17A4][2021-01-23T13:39:11]i000: [BURN] Cache Package : vc140 : Cache Progress : 22
+[0A18:16E0][2021-01-23T13:39:12]i304: Verified existing payload: SamsungDeX_x86.msi at path: C:\ProgramData\Package Cache\{E35C3F1D-91A9-4FED-A915-0F913BFD780D}v2.0.0.15\SamsungDeX_x86.msi.
+[28F4:17A4][2021-01-23T13:39:12]i000: [BURN] Cache Package : SamsungDeX_x86.msi : Cache Progress : 100
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package Begin : vc90 : Should execute : True
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package : vc90 : Execute OverallPercentage : 0 : Execute ProgressPercentage : 0
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package : InstallationTotalProgress -> 0
+[0A18:302C][2021-01-23T13:39:12]i301: Applying execute package: vc90, action: Install, path: C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.exe, arguments: '"C:\ProgramData\Package Cache\97CC6F58FB064AB6C4A2F02FB665FEF77D30532F\install.exe" /q'
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package : vc90 : Execute OverallPercentage : 8 : Execute ProgressPercentage : 50
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package : InstallationTotalProgress -> 16
+[0A18:302C][2021-01-23T13:39:12]e000: Error 0x80070666: Process returned error: 0x666
+[0A18:302C][2021-01-23T13:39:12]e000: Error 0x80070666: Failed to execute EXE package.
+[28F4:25F0][2021-01-23T13:39:12]e000: Error 0x80070666: Failed to configure per-machine EXE package.
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package Complete : vc90 : Status of execute : 80070666
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package Complete(InstallProgressVM) : InstallationProgressGlobalVar -> 33
+[28F4:25F0][2021-01-23T13:39:12]w350: Applied non-vital package: vc90, encountered error: 0x80070666. Continuing...
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package Begin : vc140 : Should execute : True
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package : vc140 : Execute OverallPercentage : 0 : Execute ProgressPercentage : 0
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package : InstallationTotalProgress -> 33
+[0A18:302C][2021-01-23T13:39:12]i301: Applying execute package: vc140, action: Install, path: C:\ProgramData\Package Cache\AFA5BADCE64EE67290ADD24E0DC3D8210954AC6C\vcredist_x86_vc2019.exe, arguments: '"C:\ProgramData\Package Cache\AFA5BADCE64EE67290ADD24E0DC3D8210954AC6C\vcredist_x86_vc2019.exe" /install /quiet /norestart'
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package : vc140 : Execute OverallPercentage : 8 : Execute ProgressPercentage : 50
+[28F4:25F0][2021-01-23T13:39:12]i000: [BURN] Execute Package : InstallationTotalProgress -> 49
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : vc140 : Execute OverallPercentage : 8 : Execute ProgressPercentage : 50
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 49
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : vc140 : Execute OverallPercentage : 16 : Execute ProgressPercentage : 100
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 66
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package Complete : vc140 : Status of execute : 0
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package Complete(InstallProgressVM) : InstallationProgressGlobalVar -> 66
+[28F4:25F0][2021-01-23T13:39:13]i319: Applied execute package: vc140, result: 0x0, restart: None
+[0A18:302C][2021-01-23T13:39:13]i323: Registering package dependency provider: {E35C3F1D-91A9-4FED-A915-0F913BFD780D}, version: 2.0.0.15, package: SamsungDeX_x86.msi
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package Begin : SamsungDeX_x86.msi : Should execute : True
+[0A18:302C][2021-01-23T13:39:13]i301: Applying execute package: SamsungDeX_x86.msi, action: Install, path: C:\ProgramData\Package Cache\{E35C3F1D-91A9-4FED-A915-0F913BFD780D}v2.0.0.15\SamsungDeX_x86.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" INSTALLFOLDER="C:\Program Files (x86)\Samsung\Samsung DeX\" ADDDESKTOPSHORTCUT="1" PRELOAD="1" SILENTCOUNT="0"'
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: 1: 0 2: 1033 3: 1252 
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 16 : Execute ProgressPercentage : 0
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 66
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: 1: 0 2: 1033 3: 0 
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Message type: 0, Argument: 1033, 0
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Message type: 1, Argument: Samsung DeX
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Action 13:39:13: INSTALL. 
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Action 13:39:13: FindRelatedProducts. Searching for related applications
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Found application: {240DF7C3-F635-4CE0-B25D-6F5064FA34EC}
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Action 13:39:13: ValidateProductID. 
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Action 13:39:13: CostInitialize. Computing space requirements
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Action 13:39:13: FileCost. Computing space requirements
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Action 13:39:13: CostFinalize. Computing space requirements
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Action 13:39:13: MigrateFeatureStates. Migrating feature states from related applications
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Action 13:39:13: InstallValidate. Validating install
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 15
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 71
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 15
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 71
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 15
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 71
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 16
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 71
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 16
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 71
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 16
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 71
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 17
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 71
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 17
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 71
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 18
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 72
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 18
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 72
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 18
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 72
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 19
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 72
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 19 : Execute ProgressPercentage : 19
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 72
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 20
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 72
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 20
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 72
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 20
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 72
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 21
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 73
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 21
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 73
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 22
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 73
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 22
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 73
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 22
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 73
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 23
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 73
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 23
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 73
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 23
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 73
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 24
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 74
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 24
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 74
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 25
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 74
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 25
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 74
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 20 : Execute ProgressPercentage : 25
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 74
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 26
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 74
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 26
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 74
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 27
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 75
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 27
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 75
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 27
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 75
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 28
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 75
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 28
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 75
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 29
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 75
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 29
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 75
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 29
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 75
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 30
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 76
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 30
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 76
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 31
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 76
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 31
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 76
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 21 : Execute ProgressPercentage : 31
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 76
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 32
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 76
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 32
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 76
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 32
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 76
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 33
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 77
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 33
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 77
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 34
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 77
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 34
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 77
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 34
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 77
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 35
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 77
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 35
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 77
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 36
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 78
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 36
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 78
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 36
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 78
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 37
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 78
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 22 : Execute ProgressPercentage : 37
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 78
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 38
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 78
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 38
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 78
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 38
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 78
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 39
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 79
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 39
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 79
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 40
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 79
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 40
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 79
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 40
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 79
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 41
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 79
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 41
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 79
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 41
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 79
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 42
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 80
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 42
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 80
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 43
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 80
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 43
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 80
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 23 : Execute ProgressPercentage : 43
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 80
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 44
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 80
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 44
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 80
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 45
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 81
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 45
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 81
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 45
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 81
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 46
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 81
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 46
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 81
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 47
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 81
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 47
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 81
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 47
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 81
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 48
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 82
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 48
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 82
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 49
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 82
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 49
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 82
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 24 : Execute ProgressPercentage : 49
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 82
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 50
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 82
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 50
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 82
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 50
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 82
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 51
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : InstallationTotalProgress -> 83
+[28F4:25F0][2021-01-23T13:39:13]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 51
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 83
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 52
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 83
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 52
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 83
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 52
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 83
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 53
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 83
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 53
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 83
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 54
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 84
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 54
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 84
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 54
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 84
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 55
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 84
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 25 : Execute ProgressPercentage : 55
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 84
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 56
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 84
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 56
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 84
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 56
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 84
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 57
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 85
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 57
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 85
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 58
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 85
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 58
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 85
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 58
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 85
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 59
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 85
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 59
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 85
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 59
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 85
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 60
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 86
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 60
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 86
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 61
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 86
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 61
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 86
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 26 : Execute ProgressPercentage : 61
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 86
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 62
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 86
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 62
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 86
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 63
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 87
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 63
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 87
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 63
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 87
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 64
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 87
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 64
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 87
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 65
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 87
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 65
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 87
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 65
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 87
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 66
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 88
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 66
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 88
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 66
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 88
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 67
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 88
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 27 : Execute ProgressPercentage : 67
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 88
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 68
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 88
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 68
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 88
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 68
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 88
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 69
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 89
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 69
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 89
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 70
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 89
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 70
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 89
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 70
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 89
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 71
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 89
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 71
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 89
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 72
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 90
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 72
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 90
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 72
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 90
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 73
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 90
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 28 : Execute ProgressPercentage : 73
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 90
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 74
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 90
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 74
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 90
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 74
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 90
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 75
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 91
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 75
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 91
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 75
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 91
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 76
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 91
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 76
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 91
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 77
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 91
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 77
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 91
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 77
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 91
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 78
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 92
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 78
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 92
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 79
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 92
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 79
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 92
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 29 : Execute ProgressPercentage : 79
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 92
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 30 : Execute ProgressPercentage : 80
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 92
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 30 : Execute ProgressPercentage : 80
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 92
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 30 : Execute ProgressPercentage : 81
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 93
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 30 : Execute ProgressPercentage : 81
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 93
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 30 : Execute ProgressPercentage : 81
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 93
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 30 : Execute ProgressPercentage : 82
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 93
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 30 : Execute ProgressPercentage : 82
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 93
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 30 : Execute ProgressPercentage : 83
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 93
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : SamsungDeX_x86.msi : Execute OverallPercentage : 30 : Execute ProgressPercentage : 83
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Execute Package : InstallationTotalProgress -> 93
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Action 13:39:14: RemoveExistingProducts. Removing applications
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: Application: {240DF7C3-F635-4CE0-B25D-6F5064FA34EC}, Command line: UPGRADINGPRODUCTCODE={E35C3F1D-91A9-4FED-A915-0F913BFD780D} CLIENTPROCESSID=2584 CLIENTUILEVEL=3 MSICLIENTUSESEXTERNALUI=1 REMOVE=ALL
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: 1: 0 2: 1033 3: 1252 
+[28F4:25F0][2021-01-23T13:39:14]i000: [BURN] Executing msi : SamsungDeX_x86.msi with message: 1: 0 2: SamsungDeX.msi 3: {240DF7C3-F635-4CE0-B25D-6F5064FA34EC} 4: {240DF7C3-F635-4CE0-B25D-6F5064FA34EC}; 5: 0 6: 1 7: 1 8: 0 
